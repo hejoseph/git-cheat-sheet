@@ -98,4 +98,4 @@ Elle permet de faire valider les modifications avant que celles-ci ne soient mis
 
 C’est une revue de code asynchrone permettant de facilement tracer et prendre en compte les remarques de chacun
 
-Avec VSTS nous pouvons lier plusieurs règles permettant de refuser les modifications lorsque la Build est KO, que les remarques ne sont pas prises en comptes, que le nombre d’approbateurs n’est pas suffisant
+Avec VSTS nous pouvons lier plusieurs règles permettant de refuser les modifications lorsque la Build est KO, que les remarques ne sont pas prises en comptes, que le nombre d’approbateurs n’est pas suffisant ..
