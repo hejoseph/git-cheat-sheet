@@ -70,3 +70,32 @@ The footer should contain any information about **Breaking Changes** and is also
 The rest of the commit message is then used for this.
 
 A detailed explanation can be found in this [document][commit-message-format].
+
+git status: état du repository local
+git diff: différence entre les fichiers courants et le dernier commit
+git init : création d’un nouveau repository (projet au sens git)
+git clone username@host:/path/to/repositorygit clone username@host:/path/to/repository : Récupérer un repository
+git checkout –b mabranche : création d’une branche
+git add <filename> / * : ajouter des documents à l’index de notre repository local
+git commit -m "Commit message …  : ajouter des fichiers l’historique de notre repository local
+git push origin master : pousser ses changements sur le repository central
+git pull : récupérer le repository distant (écrase ce que l’on en local)
+git remote add origin <server> : pour se connecter à repository (si par exemple vous n’avez pas cloner votre répertoire courant)
+git log : historique de commits du repository local
+
+Votre répertoire local de travail va être « organisé » en trois parties par GIT :
+La première : le « working directory » qui contient les contenus actuels de vos fichiers/répertoires. 
+Le second : l’index qui se comporte comme une « staging area » (zone de transit).
+Le troisième : la « head » qui pointe vers votre dernier commit. 
+
+
+.gitignore : Spécifie les fichiers qui ne doivent pas être traqués dans le contrôleur de code source
+Chaque ligne du .gitignore spécifie un pattern
+
+La pull request est indispensable !
+
+Elle permet de faire valider les modifications avant que celles-ci ne soient mises à disposition de tous
+
+C’est une revue de code asynchrone permettant de facilement tracer et prendre en compte les remarques de chacun
+
+Avec VSTS nous pouvons lier plusieurs règles permettant de refuser les modifications lorsque la Build est KO, que les remarques ne sont pas prises en comptes, que le nombre d’approbateurs n’est pas suffisant
